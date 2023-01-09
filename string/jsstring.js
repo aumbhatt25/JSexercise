@@ -1,11 +1,13 @@
+//String, var, let, const, template literals
+
 // var x = 2;
 var x = 3;
 
 {
 let x = 2;
 // let x = 3;
-document.getElementById("string1").innerHTML = x;
 }
+document.getElementById("string1").innerHTML = x;
 
 // {
 // let x = 2;
