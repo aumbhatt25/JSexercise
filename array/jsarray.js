@@ -1,4 +1,4 @@
-//Array, if-else, switch, for, arrow fn
+//Array, if-else, switch, for, arrow fn, while
 
 const cars = ["Saab", "Volvo", "BMW"];
 
@@ -51,10 +51,10 @@ if (age > 18) {
 //     document.getElementById("bool").innerHTML = numbers1;
 // }
 
-for(let i of numbers1)
-{
-    document.getElementById("bool").innerHTML = numbers1;
-}
+// for(let i of numbers1)
+// {
+//     document.getElementById("bool").innerHTML = numbers1;
+// }
 
 switch (new Date().getDay()) {
     case 0:
@@ -79,3 +79,6 @@ switch (new Date().getDay()) {
       day = "Saturday";
   }
 //   document.getElementById("bool").innerHTML = "Today is " + day;
+
+let myFunction1 = (a, b) => a * b;
+document.getElementById("bool").innerHTML = myFunction1(4, 5);
